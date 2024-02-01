@@ -45,15 +45,16 @@ XAVI CONDA
 
 
 HTML sirve para crear páginas web y tiene una estructura que incluye secciones como head y body, con etiquetas para introducir elementos. En la etiqueta de apertura se pueden agregar clases, por ejemplo:
-
+```html
 <div class="contenido-visible">Contenido</div>
+```
 
 Anidar implica poner contenido dentro de otro, como en este ejemplo en Markdown:
 
 Hola que tal?
 
 Crear un documento HTML básico se logra con la siguiente estructura:
-´´´html
+```html
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -90,7 +91,7 @@ Crear un documento HTML básico se logra con la siguiente estructura:
     <title>Nuevo Título de la Página</title>
 </body>
 </html>
-
+```
 En CSS, se personaliza la página web, ya sea de forma interna o externa. Por ejemplo:
 
 /* CSS interno */
@@ -105,9 +106,9 @@ h1 {
 }
 
 Para declarar un ID y enlazarlo, puedes hacerlo de la siguiente manera:
-
+```html
 <div id="nombre">Contenido</div>
-
+```
 Y enlazarlo:
 
 #nombre {
