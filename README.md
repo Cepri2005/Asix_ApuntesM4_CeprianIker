@@ -48,11 +48,6 @@ HTML sirve para crear páginas web y tiene una estructura que incluye secciones 
 ```html
 <div class="contenido-visible">Contenido</div>
 ```
-
-Anidar implica poner contenido dentro de otro, como en este ejemplo en Markdown:
-
-Hola que tal?
-
 Crear un documento HTML básico se logra con la siguiente estructura:
 ```html
 <!DOCTYPE html>
@@ -93,7 +88,7 @@ Crear un documento HTML básico se logra con la siguiente estructura:
 </html>
 ```
 En CSS, se personaliza la página web, ya sea de forma interna o externa. Por ejemplo:
-
+```css
 /* CSS interno */
 table {
     border: 1px solid red;
@@ -104,24 +99,23 @@ table {
 h1 {
     color: red;
 }
-
+```
 Para declarar un ID y enlazarlo, puedes hacerlo de la siguiente manera:
 ```html
 <div id="nombre">Contenido</div>
 ```
 Y enlazarlo:
-
+```css
 #nombre {
     background-color: rgb(0, 0, 255);
     color: red;
 }
-
+```
 En Mediaqueries, se asegura que la página se vea equitativa en diferentes tamaños de pantalla, como en este ejemplo:
-
+```css
 @media only screen and (max-width: 600px) {
     body {
         background-color: lightblue;
     }
 }
-
-Estas son algunas adaptaciones de la información que proporcionaste. ¿Hay algo específico que te gustaría cambiar o agregar?
+```
