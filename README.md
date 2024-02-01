@@ -53,7 +53,7 @@ Anidar implica poner contenido dentro de otro, como en este ejemplo en Markdown:
 Hola que tal?
 
 Crear un documento HTML básico se logra con la siguiente estructura:
-
+´´´html
 <!DOCTYPE html>
 <html lang="es">
 <head>
