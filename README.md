@@ -72,14 +72,14 @@ Crear un documento HTML básico se logra con la siguiente estructura:
     <!-- Salto de línea -->
     <br>
     <!-- Comentario -->
+    
     <!-- Este es un comentario -->
+
     <!-- Insertar imagen -->
     <img src="ruta-o-url-de-la-imagen" alt="Descripción de la imagen">
     <!-- Enlace a otro destino -->
     <a href="#id-en-la-misma-pagina">Enlace interno</a>
     <a href="url-del-enlace">Enlace externo</a>
-    <!-- Tablas en HTML -->
-    <!-- Para más teoría y ejemplos, ver tablas.html -->
     <!-- Cambiar icono de la página -->
     <link rel="icon" href="ruta-del-icono">
     <!-- Cambiar título de la página -->
